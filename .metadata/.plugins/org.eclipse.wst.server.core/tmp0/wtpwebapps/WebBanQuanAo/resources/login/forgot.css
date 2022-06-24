@@ -1,0 +1,130 @@
+body {
+  background:url('https://cdn.magdeleine.co/wp-content/uploads/2016/07/pexels-photo-112392-1400x933.jpeg')no-repeat center center fixed;
+  margin:0px;
+font-family: Arial, Helvetica, sans-serif;s
+	background-size: 100% 110%;
+}
+h1, h2, h3, h4, h5, h6, a {
+  margin:0; padding:0;
+}
+/* .forgot {
+  margin:0 auto;
+  max-width:500px;
+} */
+.forgot-header {
+	padding-top: 15px;
+	margin:0 auto;
+  max-width:800px;
+  color:#fff;
+  text-align:center;
+  font-size:200%;
+}
+.forgot-form {
+  border:.5px solid #fff;
+  background:#4facff;
+  border-radius:10px;
+  box-shadow:0px 0px 10px #000;
+}
+.forgot-form h3 {
+  text-align:left;
+  margin-left:40px;
+  color:#fff;
+}
+.forgot-form {
+	margin:0 auto;
+  max-width:500px;
+  box-sizing:border-box;
+  padding-top:15px;
+	padding-bottom:10%;
+  margin:2% auto;
+  text-align:center;
+}
+.forgot input[type="email"] {
+  max-width:400px;
+	width: 80%;
+  line-height:3em;
+font-family: Arial, Helvetica, sans-serif;
+  margin:1em 2em;
+  border-radius:5px;
+  border:2px solid #f2f2f2;
+  outline:none;
+  padding-left:10px;
+}
+.forgot-form input[type="submit"] {
+  height:30px;
+  width:200px;
+  background:#fff;
+  border:1px solid #f2f2f2;
+  border-radius:20px;
+  color: slategrey;
+  text-transform:uppercase;
+font-family: Arial, Helvetica, sans-serif;
+  cursor:pointer;
+}
+
+
+/*Media Querie*/
+@media only screen and (min-width : 150px) and (max-width : 530px){
+  .forgot-form h3 {
+    text-align:center;
+    margin:0;
+  }
+
+  .forgot-button {
+    margin-bottom:10px;
+  }
+}
+
+/* ////////////////////////////////////////////////////////////////////// */
+
+.form-captcha:hover {
+
+border : none;
+
+}
+
+.form-captcha-image {
+
+max-width : 45%;
+
+float : left;
+
+height : 49px;
+
+border : border 1px solid #002639;
+
+}
+
+.form-captcha div:before {
+
+content: "Enter text as shown!";
+
+z-index: 1;
+
+position: absolute;
+
+top: 25px;
+
+left: 3px;
+
+opacity: 0.3;
+
+}
+
+.form-captcha div {
+
+position: relative;
+
+float : right;
+
+max-width : 45%;
+
+}
+
+[name="captcha"]:hover {
+
+position: relative;
+
+z-index: 2;
+
+}

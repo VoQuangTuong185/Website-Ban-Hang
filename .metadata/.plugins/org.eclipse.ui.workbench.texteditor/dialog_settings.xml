@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item key="selection" value="listProducts"/>
+		<item key="wrap" value="true"/>
+		<item key="casesensitive" value="false"/>
+		<item key="wholeword" value="false"/>
+		<item key="incremental" value="false"/>
+		<item key="isRegEx" value="false"/>
+		<list key="findhistory">
+			<item value="listProducts"/>
+			<item value=" Giỏ hàng "/>
+			<item value="total"/>
+			<item value="when"/>
+			<item value="banChay"/>
+			<item value="hangMoi"/>
+			<item value="category"/>
+			<item value="login"/>
+			<item value="get"/>
+			<item value="System.out.println(pw);"/>
+			<item value="&lt;%@ page language=&quot;java&quot; pageEncoding=&quot;utf-8&quot;%&gt;"/>
+			<item value="Jaipur India"/>
+			<item value="5353 Road Avenue"/>
+			<item value="Đồ án môn Lập Trình Web"/>
+			<item value="p"/>
+		</list>
+		<list key="replacehistory">
+			<item value=""/>
+			<item value="Carts"/>
+			<item value="productname"/>
+			<item value="signin"/>
+			<item value="clothes"/>
+			<item value="/register"/>
+			<item value="register"/>
+			<item value=".htm"/>
+			<item value="htm"/>
+			<item value="&quot;&lt;c:url value=&quot;/resources/images/product_10.png&quot;/&gt;&quot;"/>
+			<item value="&quot;&lt;c:url value=&quot;/resources/images/product_9.png&quot;/&gt;&quot;"/>
+			<item value="&quot;&lt;c:url value=&quot;/resources/images/product_8.png&quot;/&gt;&quot;"/>
+			<item value="&quot;&lt;c:url value=&quot;/resources/images/product_7.png&quot;/&gt;&quot;"/>
+			<item value="&quot;&lt;c:url value=&quot;/resources/images/product_6.png&quot;/&gt;&quot;"/>
+			<item value="&quot;&lt;c:url value=&quot;/resources/images/product_5.png&quot;/&gt;&quot;"/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="1320"/>
+		<item key="DIALOG_Y_ORIGIN" value="571"/>
+		<item key="DIALOG_WIDTH" value="526"/>
+		<item key="DIALOG_HEIGHT" value="458"/>
+		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+	</section>
+</section>

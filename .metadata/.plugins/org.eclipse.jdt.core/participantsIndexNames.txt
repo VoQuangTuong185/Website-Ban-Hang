@@ -1,0 +1,115 @@
+INDEX VERSION 1.131
+C:\Users\Vo Quang Tuong\WebBanHang_backup_te-them_admin\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\381084745.index
+\WebBanQuanAo\src
+C:\Users\Vo Quang Tuong\WebBanHang_backup_te-them_admin\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1933615573.index
+\WebBanQuanAo\src
+C:\Users\Vo Quang Tuong\WebBanHang_backup_te-them_admin\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2069293037.index
+\WebContent\src\main\java
+C:\Users\Vo Quang Tuong\WebBanHang_backup_te-them_admin\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\455990886.index
+\WebBanQuanAo\src
+C:\Users\Vo Quang Tuong\WebBanHang\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3521634191.index
+\WebBanQuanAo\src
+C:\Users\Vo Quang Tuong\WebBanHang_backup_te-them_admin\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3576346084.index
+\WebContent\src\main\java
+C:\Users\Vo Quang Tuong\WebBanHang_backup_te-them_admin\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\561115182.index
+\WebBanQuanAo\src
+C:\Users\Vo Quang Tuong\WebBanHang\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\455990886.index
+\WebBanQuanAo\src
+C:\Users\Vo Quang Tuong\WebBanHang\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\381084745.index
+\WebBanQuanAo\src
+C:\Users\Vo Quang Tuong\WebBanHang_backup_te-them_admin\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1034794920.index
+\WebContent\src\main\java
+C:\Users\Vo Quang Tuong\WebBanHang\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2286529817.index
+\WebBanHang\src
+C:\Users\Vo Quang Tuong\WebBanHang\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1142863948.index
+\WebBanHang\src
+C:\Users\Vo Quang Tuong\WebBanHang\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2476230391.index
+\WebBanHang\src
+C:\Users\Vo Quang Tuong\WebBanHang_backup_te-them_admin\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2014810194.index
+\WebContent\src\main\java
+C:\Users\Vo Quang Tuong\WebBanHang\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1275324343.index
+\WebBanHang\src
+C:\Users\Vo Quang Tuong\WebBanHang_backup_te-them_admin\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\660022640.index
+\WebContent\src\main\java
+C:\Users\Vo Quang Tuong\WebBanHang\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3942609798.index
+\WebBanHang\src
+C:\Users\Vo Quang Tuong\WebBanHang\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2991458646.index
+\WebBanQuanAo\src
+C:\Users\Vo Quang Tuong\WebBanHang_backup_te-them_admin\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4046531976.index
+\WebBanQuanAo\src
+C:\Users\Vo Quang Tuong\WebBanHang_backup_te-them_admin\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1882735794.index
+\WebContent\src\main\java
+C:\Users\Vo Quang Tuong\WebBanHang_backup_te-them_admin\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2350297958.index
+\WebBanQuanAo\src
+C:\Users\Vo Quang Tuong\WebBanHang\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2209281097.index
+\WebBanQuanAo\src
+C:\Users\Vo Quang Tuong\WebBanHang_backup_te-them_admin\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\879874651.index
+\WebContent\src\main\java
+C:\Users\Vo Quang Tuong\WebBanHang_backup_te-them_admin\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2400035367.index
+\WebBanQuanAo\src
+C:\Users\Vo Quang Tuong\WebBanHang_backup_te-them_admin\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1486178336.index
+\WebBanQuanAo\src
+C:\Users\Vo Quang Tuong\WebBanHang_backup_te-them_admin\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4137106581.index
+\WebBanQuanAo\src
+C:\Users\Vo Quang Tuong\WebBanHang_backup_te-them_admin\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3713882767.index
+\WebContent\src\main\java
+C:\Users\Vo Quang Tuong\WebBanHang\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1933615573.index
+\WebBanQuanAo\src
+C:\Users\Vo Quang Tuong\WebBanHang\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1761051500.index
+\WebBanQuanAo\src
+C:\Users\Vo Quang Tuong\WebBanHang_backup_te-them_admin\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3977410958.index
+\WebBanQuanAo\src
+C:\Users\Vo Quang Tuong\WebBanHang\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2422059803.index
+\WebBanHang\src
+C:\Users\Vo Quang Tuong\WebBanHang_backup_te-them_admin\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1014416674.index
+\WebBanQuanAo\src
+C:\Users\Vo Quang Tuong\WebBanHang_backup_te-them_admin\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3635515339.index
+\WebContent\src\main\java
+C:\Users\Vo Quang Tuong\WebBanHang\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\35638197.index
+\WebBanQuanAo\src
+C:\Users\Vo Quang Tuong\WebBanHang\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1807255651.index
+\WebBanHang\src
+C:\Users\Vo Quang Tuong\WebBanHang\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3823816671.index
+\WebBanHang\src
+C:\Users\Vo Quang Tuong\WebBanHang_backup_te-them_admin\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2584576082.index
+\WebContent\src\main\java
+C:\Users\Vo Quang Tuong\WebBanHang_backup_te-them_admin\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4024767144.index
+\WebBanQuanAo\src
+C:\Users\Vo Quang Tuong\WebBanHang\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\56279052.index
+\WebBanHang\src
+C:\Users\Vo Quang Tuong\WebBanHang\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\58260742.index
+\WebBanHang\src
+C:\Users\Vo Quang Tuong\WebBanHang_backup_te-them_admin\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2528314762.index
+\WebContent\src\main\java
+C:\Users\Vo Quang Tuong\WebBanHang\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4024767144.index
+\WebBanQuanAo\src
+C:\Users\Vo Quang Tuong\WebBanHang\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1557223505.index
+\WebBanHang\src
+C:\Users\Vo Quang Tuong\WebBanHang_backup_te-them_admin\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3042020463.index
+\WebBanQuanAo\src
+C:\Users\Vo Quang Tuong\WebBanHang\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4117640183.index
+\WebBanHang\src
+C:\Users\Vo Quang Tuong\WebBanHang\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1171100236.index
+\WebBanQuanAo\src
+C:\Users\Vo Quang Tuong\WebBanHang_backup_te-them_admin\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\87035580.index
+\WebContent\src\main\java
+C:\Users\Vo Quang Tuong\WebBanHang\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1205788260.index
+\WebBanQuanAo\src
+C:\Users\Vo Quang Tuong\WebBanHang_backup_te-them_admin\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1791350360.index
+\WebContent\src\main\java
+C:\Users\Vo Quang Tuong\WebBanHang\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\356726436.index
+\WebBanHang\src
+C:\Users\Vo Quang Tuong\WebBanHang_backup_te-them_admin\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3716926879.index
+\WebBanQuanAo\src
+C:\Users\Vo Quang Tuong\WebBanHang_backup_te-them_admin\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3359345969.index
+\WebBanQuanAo\src
+C:\Users\Vo Quang Tuong\WebBanHang\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1233486435.index
+\WebBanHang\src
+C:\Users\Vo Quang Tuong\WebBanHang\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1014416674.index
+\WebBanQuanAo\src
+C:\Users\Vo Quang Tuong\WebBanHang\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3042020463.index
+\WebBanQuanAo\src
+C:\Users\Vo Quang Tuong\WebBanHang_backup_te-them_admin\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2251789500.index
+\WebBanQuanAo\src
+C:\Users\Vo Quang Tuong\WebBanHang_backup_te-them_admin\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1171100236.index
+\WebBanQuanAo\src

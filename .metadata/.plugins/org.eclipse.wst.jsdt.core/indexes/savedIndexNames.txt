@@ -1,0 +1,2 @@
+INDEX VERSION 1.4+C:\Users\Vo Quang Tuong\WebBanHang_backup_te-them_admin\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+348580236.index

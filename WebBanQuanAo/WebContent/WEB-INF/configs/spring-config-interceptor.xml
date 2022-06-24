@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:tx="http://www.springframework.org/schema/tx"
+	xmlns:mvc="http://www.springframework.org/schema/mvc"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+	   		http://www.springframework.org/schema/beans/spring-beans.xsd
+	   		http://www.springframework.org/schema/context
+	   		http://www.springframework.org/schema/context/spring-context.xsd
+	   		http://www.springframework.org/schema/tx 
+			http://www.springframework.org/schema/tx/spring-tx.xsd
+			http://www.springframework.org/schema/mvc 
+			http://www.springframework.org/schema/mvc/spring-mvc.xsd">
+
+	<!-- Cấu hình interceptor -->
+	<mvc:interceptors>
+		<!-- Lọc tất cả các URL -->
+		<bean class="clothes.interceptor.GlobalInterceptor" />
+		
+		<mvc:interceptor>
+			<!-- Chưa đăng nhập thì không được truy cập vào các URL bên dưới -->
+			<mvc:mapping path="/cart/**" />
+			<mvc:mapping path="/order/**" />
+			<mvc:mapping path="/account/**" />
+			<mvc:exclude-mapping path="/account/signin.htm" />
+			<mvc:exclude-mapping path="/account/register.htm" />
+			<mvc:exclude-mapping path="/account/forgot.htm" />
+			<mvc:exclude-mapping path="/account/change_forgot.htm" />
+			<mvc:exclude-mapping path="/account/code.htm" />
+			
+			<bean class="clothes.interceptor.GuestInterceptor" />
+		</mvc:interceptor>
+
+		<mvc:interceptor>
+			<!-- Đã đăng nhập thì không được truy cập URL vào các bên dưới -->
+			<mvc:mapping path="/account/signin.htm" />
+			<mvc:mapping path="/account/register.htm" />
+			<mvc:mapping path="/account/forgot.htm" />
+			<mvc:mapping path="/captcha/index.htm" />
+			
+			<bean class="clothes.interceptor.UserInterceptor" />
+		</mvc:interceptor>
+
+		<mvc:interceptor>
+		<!-- khi đăng nhập bằng tài khoản thường thì không được truy cập URL vào các bên dưới của admin -->
+			<mvc:mapping path="/admin/**" />
+			<bean class="clothes.interceptor.RoleInterceptor" />
+		</mvc:interceptor>
+	</mvc:interceptors>
+
+</beans>

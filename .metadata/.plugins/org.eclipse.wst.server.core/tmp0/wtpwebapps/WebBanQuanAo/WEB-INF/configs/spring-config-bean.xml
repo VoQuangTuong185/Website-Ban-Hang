@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:tx="http://www.springframework.org/schema/tx"
+	xmlns:mvc="http://www.springframework.org/schema/mvc"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+	   		http://www.springframework.org/schema/beans/spring-beans.xsd
+	   		http://www.springframework.org/schema/context
+	   		http://www.springframework.org/schema/context/spring-context.xsd
+	   		http://www.springframework.org/schema/tx 
+			http://www.springframework.org/schema/tx/spring-tx.xsd
+			http://www.springframework.org/schema/mvc 
+			http://www.springframework.org/schema/mvc/spring-mvc.xsd">
+
+	<!-- Đổi đường dẫn theo từng máy -->
+	<bean id="productFile" class="clothes.bean.UploadFile">
+		<property name="basePath"
+			value="C:\Users\Vo Quang Tuong\WebBanHang_backup_te-them_admin\WebBanQuanAo\WebContent\resources\images" />
+	</bean>
+
+<bean id="accountDAO" class="clothes.dao.impl.AccountDAOImpl">
+		<property name="sessionFactory" ref="sessionFactory" />
+	</bean>
+		<bean id="categoryDAO" class="clothes.dao.impl.CategoryDAOImpl">
+		<property name="sessionFactory" ref="sessionFactory" />
+	</bean>
+		<bean id="productDAO" class="clothes.dao.impl.ProductDAOImpl">
+		<property name="sessionFactory" ref="sessionFactory" />
+	</bean>
+	<bean id="cartDAO" class="clothes.dao.impl.CartDAOImpl">
+		<property name="sessionFactory" ref="sessionFactory" />
+	</bean>
+	<bean id="orderDAO" class="clothes.dao.impl.OrderDAOImpl">
+		<property name="sessionFactory" ref="sessionFactory" />
+	</bean>
+	
+</beans>

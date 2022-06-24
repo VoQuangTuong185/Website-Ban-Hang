@@ -1,0 +1,142 @@
+1652589006484	Rename package 'src.clothes.controller'
+1652589023816	Delete element
+1652589241801	Move 'resources' to 'WebBanQuanAo'
+1652589410939	Move 'resources' to 'WEB-INF'
+1652589429559	Move 'resources' to 'WebContent'
+1652592375746	Delete element
+1652592400415	Rename resource 'single.html'
+1652598475733	Rename resource 'popper.min.js.map'
+1652598944687	Rename resource 'contact.html'
+1652600794709	Rename resource 'loginstyle.jsp'
+1652600835704	Delete element
+1652600842279	Copy file
+1652600848995	Rename resource 'single_styles.css'
+1652600860660	Move 'login_styles.css' to 'styles'
+1652604399194	Delete element
+1652604413222	Delete element
+1652604982935	Rename resource 'login_styles.css'
+1652606005413	Rename resource 'Login_v1'
+1652609422275	Move 'styles.css' to 'css'
+1652609445711	Copy file
+1652609458421	Delete element
+1652609460202	Delete element
+1652609461653	Delete element
+1652609463273	Delete element
+1652610436072	Delete element
+1652610438849	Delete element
+1652610442834	Delete element
+1652610458519	Delete element
+1652614693795	Delete element
+1652625321631	Move 'index.jsp' to 'WebContent'
+1652634741389	Copy file
+1652636677528	Copy file
+1652636687135	Rename resource 'login1.jsp'
+1652636736459	Rename resource 'resisgter.jsp'
+1652636750006	Move 'register.jsp' to 'views'
+1652637449341	Copy folder
+1652637469375	Rename resource 'login'
+1652637483398	Move 'register' to 'resources'
+1652669709456	Move 'main.css' to 'css'
+1652669770156	Copy file
+1652670332957	Delete element
+1652670338698	Copy file
+1652670451462	Delete element
+1652670535574	Delete element
+1652700056443	Rename package 'bean'
+1652700069571	Delete element
+1652700071538	Delete element
+1652700072954	Delete element
+1652700074193	Delete element
+1652700075332	Delete element
+1652700076551	Delete element
+1652700077926	Delete element
+1652704773788	Delete element
+1652708591085	Rename resource 'Account'
+1652708601324	Move 'login1.jsp' to 'account'
+1652708602725	Move 'register.jsp' to 'account'
+1652723307266	Rename resource 'login1.jsp'
+1652760903006	Delete element
+1652761980279	Delete element
+1652762067447	Rename resource 'main.css'
+1652767127852	Delete element
+1652773270652	Delete element
+1652782885342	Move 'categories.jsp' to 'categories'
+1652782892746	Rename resource 'categories.jsp'
+1652783037443	Rename resource 'categories'
+1652784931881	Delete element
+1652786835249	Copy file
+1652848272841	Rename type 'FoodDAO'
+1652848569665	Rename compilation unit 'FoodDAOImpl.java'
+1652849816999	Copy file
+1652849831905	Copy file
+1652857630596	Move 'food' to 'images'
+1652858988338	Rename resource '20211103_090541_1556768940_5_mon_an_ngon_tu_mat_ong_6.jpg'
+1652860609522	Rename type 'FoodController'
+1652879306065	Delete element
+1652889920973	Move 'single.jsp' to 'product'
+1652889931650	Rename resource 'single.jsp'
+1652889966512	Move 'product' to 'views'
+1652891920825	Delete element
+1652893692870	Delete element
+1652927835518	Move 'index.jsp' to 'WEB-INF'
+1652927862186	Move 'index.jsp' to 'views'
+1652927879375	Copy file
+1652929132335	Delete element
+1652929134085	Delete element
+1652933930183	Delete element
+1652949695674	Delete element
+1652950332822	Delete element
+1652958765035	Delete element
+1652958773068	Delete element
+1652958913897	Delete element
+1652958916763	Delete element
+1652976013165	Delete element
+1652976017707	Delete element
+1652976062673	Rename resource 'product1_1.jpeg'
+1652976066874	Rename resource 'product1_2.jpeg'
+1652976086041	Rename resource 'product_1.jpeg'
+1652976111579	Rename resource 'product1.jpeg'
+1652976117116	Rename resource 'product1_10.jpeg'
+1652976120094	Rename resource 'product1_200.jpeg'
+1652976266716	Delete element
+1652976268773	Delete element
+1652976270818	Delete element
+1652976272325	Delete element
+1652976273762	Delete element
+1652976275080	Delete element
+1652976277015	Delete element
+1652976305635	Rename resource 'product1_2.jpeg'
+1652976309464	Rename resource 'product1_1.jpeg'
+1652977532142	Delete element
+1652977602119	Delete element
+1652977709506	Delete element
+1652977782647	Delete element
+1652978165761	Rename resource 'product_6-1.png'
+1652978248995	Rename resource 'product_6.png'
+1652978605801	Delete element
+1652978670915	Delete element
+1652978673392	Delete element
+1652978674794	Delete element
+1652978678694	Delete element
+1652978680147	Delete element
+1652978683227	Delete element
+1652978685447	Delete element
+1652978687421	Delete element
+1652978703386	Rename resource 'product1.jpeg'
+1652978742298	Rename resource 'product_8.jpeg'
+1652979713379	Delete element
+1652980029727	Rename resource 'product_8-.jpeg'
+1652980034026	Rename resource 'product_8-1.jpeg'
+1652980037935	Rename resource 'product_8-2.jpeg'
+1652980337181	Delete element
+1652980385553	Delete element
+1653040364848	Copy file
+1653042794658	Rename resource 'index.jsp'
+1653114036672	Rename resource 'header.jsp'
+1653115102743	Rename resource 'lock.jsp'
+1653129727282	Rename resource 'food'
+1653129750978	Delete element
+1653158203469	Delete element
+1653162036103	Copy file
+1653163370246	Delete element
+1653163462235	Delete element
