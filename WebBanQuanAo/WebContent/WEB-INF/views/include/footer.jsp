@@ -1,403 +1,118 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
 <style>
- body { }
-.footer-widget p {
-    margin-bottom: 27px;
+body {
+    font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
-p1 {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
-  color:white;
-    line-height: 28px;
+
+h1,h2,h3,h4,h5,h6,
+.h1,.h2,.h3,.h4,.h5,.h6 {
+    font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
- .animate-border {
-  position: relative;
-  display: block;
-  width: 115px;
-  height: 3px;
-  background: #007bff; }
 
-.animate-border:after {
-  position: absolute;
-  content: "";
-  width: 35px;
-  height: 3px;
-  left: 0;
-  bottom: 0;
-  border-left: 10px solid #fff;
-  border-right: 10px solid #fff;
-  -webkit-animation: animborder 2s linear infinite;
-  animation: animborder 2s linear infinite; }
+a {
+    -webkit-transition: 0.3s all ease;
+    -o-transition: 0.3s all ease;
+    transition: 0.3s all ease;
+}
+a,
+a:hover {
+    text-decoration: none !important;
+}
 
-@-webkit-keyframes animborder {
-  0% {
-    -webkit-transform: translateX(0px);
-    transform: translateX(0px); }
-  100% {
-    -webkit-transform: translateX(113px);
-    transform: translateX(113px); } }
+.content {
+    height: 70vh;
+}
 
-@keyframes animborder {
-  0% {
-    -webkit-transform: translateX(0px);
-    transform: translateX(0px); }
-  100% {
-    -webkit-transform: translateX(113px);
-    transform: translateX(113px); } }
-
-.animate-border.border-white:after {
-  border-color: #fff; }
-
-.animate-border.border-yellow:after {
-  border-color: #F5B02E; }
-
-.animate-border.border-orange:after {
-  border-right-color: #007bff;
-  border-left-color: #007bff; }
-
-.animate-border.border-ash:after {
-  border-right-color: #EEF0EF;
-  border-left-color: #EEF0EF; }
-
-.animate-border.border-offwhite:after {
-  border-right-color: #F7F9F8;
-  border-left-color: #F7F9F8; }
-
-/* Animated heading border */
-@keyframes primary-short {
-  0% {
-    width: 15%; }
-  50% {
-    width: 90%; }
-  100% {
-    width: 10%; } }
-
-@keyframes primary-long {
-  0% {
-    width: 80%; }
-  50% {
-    width: 0%; }
-  100% {
-    width: 80%; } } 
-
-.dk-footer {
-  padding: 75px 0 0;
-  background-color: #151414;
-  position: relative;
-  z-index: 2; }
-  .dk-footer .contact-us {
-    margin-top: 0;
-    margin-bottom: 30px;
-    padding-left: 80px; }
-    .dk-footer .contact-us .contact-info {
-      margin-left: 50px; }
-    .dk-footer .contact-us.contact-us-last {
-      margin-left: -80px; }
-  .dk-footer .contact-icon i {
-    font-size: 24px;
-    top: -15px;
-    position: relative;
-    color:#007bff; }
-
-.dk-footer-box-info {
-  position: absolute;
-  top: -122px;
-  background: #202020;
-  padding: 40px;
-  z-index: 2; }
-  .dk-footer-box-info .footer-social-link h3 {
-    color: #fff;
-    font-size: 24px;
-    margin-bottom: 25px; }
-  .dk-footer-box-info .footer-social-link ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0; }
-  .dk-footer-box-info .footer-social-link li {
-    display: inline-block; }
-  .dk-footer-box-info .footer-social-link a i {
-    display: block;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
+.footer-16371 {
+	background-color: whitesmoke;
+    font-family: "Poppins", sans-serif;
+}
+.footer-16371 .footer-site-logo {
     text-align: center;
-    line-height: 40px;
-    background: #000;
-    margin-right: 5px;
-    color: #fff; }
-    .dk-footer-box-info .footer-social-link a i.fa-facebook {
-      background-color: #3B5998; }
-    .dk-footer-box-info .footer-social-link a i.fa-twitter {
-      background-color: #55ACEE; }
-    .dk-footer-box-info .footer-social-link a i.fa-google-plus {
-      background-color: #DD4B39; }
-    .dk-footer-box-info .footer-social-link a i.fa-linkedin {
-      background-color: #0976B4; }
-    .dk-footer-box-info .footer-social-link a i.fa-instagram {
-      background-color: #B7242A; }
-
-.footer-awarad {
-  margin-top: 285px;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-flex: 0;
-  -webkit-flex: 0 0 100%;
-  -moz-box-flex: 0;
-  -ms-flex: 0 0 100%;
-  flex: 0 0 100%;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -moz-box-align: center;
-  -ms-flex-align: center;
-  align-items: center; }
-  .footer-awarad p {
-    color: #fff;
-    font-size: 24px;
-    font-weight: 700;
-    margin-left: 20px;
-    padding-top: 15px; }
-
-.footer-info-text {
-  margin: 26px 0 32px; }
-
-.footer-left-widget {
-  padding-left: 80px; }
-
-.footer-widget .section-heading {
-  margin-bottom: 35px; }
-
-.footer-widget h3 {
-  font-size: 24px;
-  color: #fff;
-  position: relative;
-  margin-bottom: 15px;
-  max-width: -webkit-fit-content;
-  max-width: -moz-fit-content;
-  max-width: fit-content; }
-
-.footer-widget ul {
-  width: 50%;
-  float: left;
-  list-style: none;
-  margin: 0;
-  padding: 0; }
-
-.footer-widget li {
-  margin-bottom: 18px; }
-
-.footer-widget p {
-  margin-bottom: 27px; }
-
-.footer-widget a {
-  color: #878787;
-  -webkit-transition: all 0.3s;
-  -o-transition: all 0.3s;
-  transition: all 0.3s; }
-  .footer-widget a:hover {
-    color: #007bff; }
-
-.footer-widget:after {
-  content: "";
-  display: block;
-  clear: both; }
-
-.dk-footer-form {
-  position: relative; }
-  .dk-footer-form input[type=email] {
-    padding: 14px 28px;
-    border-radius: 50px;
-    background: #2E2E2E;
-    border: 1px solid #2E2E2E; }
-  .dk-footer-form input::-webkit-input-placeholder, .dk-footer-form input::-moz-placeholder, .dk-footer-form input:-ms-input-placeholder, .dk-footer-form input::-ms-input-placeholder, .dk-footer-form input::-webkit-input-placeholder {
-    color: #878787;
-    font-size: 14px; }
-  .dk-footer-form input::-webkit-input-placeholder, .dk-footer-form input::-moz-placeholder, .dk-footer-form input:-ms-input-placeholder, .dk-footer-form input::-ms-input-placeholder, .dk-footer-form input::placeholder {
-    color: #878787;
-    font-size: 14px; }
-  .dk-footer-form button[type=submit] {
-    position: absolute;
-    top: 0;
-    right: 0;
-    padding: 12px 24px 12px 17px;
-    border-top-right-radius: 25px;
-    border-bottom-right-radius: 25px;
-    border: 1px solid #007bff;
-    background: #007bff;
-    color: #fff; }
-  .dk-footer-form button:hover {
-    cursor: pointer; }
-
-/* ==========================
-
-    Contact
-
-=============================*/
-.contact-us {
-  position: relative;
-  z-index: 2;
-  margin-top: 65px;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -moz-box-align: center;
-  -ms-flex-align: center;
-  align-items: center; }
-
-.contact-icon {
-  position: absolute; }
-  .contact-icon i {
-    font-size: 36px;
-    top: -5px;
-    position: relative;
-    color: #007bff; }
-
-.contact-info {
-  margin-left: 75px;
-  color: #fff; }
-  .contact-info h3 {
-    font-size: 20px;
-    color: #fff;
-    margin-bottom: 0; }
-
-.copyright {
-  padding: 28px 0;
-  margin-top: 55px;
-  background-color: #202020; }
-  .copyright span,
-  .copyright a {
-    color: #878787;
-    -webkit-transition: all 0.3s linear;
-    -o-transition: all 0.3s linear;
-    transition: all 0.3s linear; }
-  .copyright a:hover {
-    color:#007bff; }
-
-.copyright-menu ul {
-  text-align: right;
-  margin: 0; }
-
-.copyright-menu li {
-  display: inline-block;
-  padding-left: 20px; }
-
-.back-to-top {
-  position: relative;
-  z-index: 2; }
-  .back-to-top .btn-dark {
-    width: 35px;
-    height: 35px;
-    border-radius: 50%;
+    font-size: 2rem;
+    font-weight: 900;
+}
+.footer-16371 .footer-site-logo a {
+    color: #4200ff;
+}
+.footer-16371 .nav-links {
     padding: 0;
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    background: #2e2e2e;
-    border-color: #2e2e2e;
-    display: none;
-    z-index: 999;
-    -webkit-transition: all 0.3s linear;
-    -o-transition: all 0.3s linear;
-    transition: all 0.3s linear; }
-    .back-to-top .btn-dark:hover {
-      cursor: pointer;
-      background: #FA6742;
-      border-color: #FA6742; }
+    margin: 0;
+}
+.footer-16371 .nav-links li {
+    display: inline-block;
+}
+.footer-16371 .nav-links li a {
+    padding: 10px;
+    color: #000;
+}
+.footer-16371 .nav-links li a:hover {
+    color: #4200ff;
+}
+.footer-16371 .social h3 {
+    font-weight: bold;
+    font-size: 18px;
+    color: #000;
+}
+.footer-16371 .social ul li {
+    display: inline-block;
+}
+.footer-16371 .social ul li a {
+    display: inline-block;
+    padding: 10px;
+}
+.footer-16371 .social ul li.in a {
+    color: #df588a;
+}
+.footer-16371 .social ul li.tw a {
+    color: #15b8ff;
+}
+.footer-16371 .social ul li.fb a {
+    color: #3742d0;
+}
+.footer-16371 .social ul li.dr a {
+    color: #fa38c1;
+}
+.footer-16371 .social ul li.pin a {
+    color: #dd4d5a;
+}
 </style>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
-<footer id="dk-footer" class="dk-footer">              
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12 col-lg-4">
-                    <div class="dk-footer-box-info">
-                        <a href="index.html" class="footer-logo">
-                            <img src="https://cdn.pixabay.com/photo/2016/11/07/13/04/yoga-1805784_960_720.png" alt="footer_logo" class="img-fluid">
-                        </a>
-                        <p1 class="footer-info-text">
-                           Đồ án môn Lập Trình Web 
-                        </p1>
-                        <br><br><br>
-                        <div class="footer-social-link">
-                            Giảng viên hướng dẫn
-                            <div class="p-3 mb-2 bg-info text-white text-center">NGUYỄN TRUNG HIẾU</div>
-                        </div>
-                        <!-- End Social link -->
-                    </div>
-                    <!-- End Footer info -->
-                    <div class="footer-awarad">
-                        <img src="images/icon/best.png" alt="">
-                        
-                    </div>
-                </div>
-                <!-- End Col -->
-                <div class="col-md-12 col-lg-8">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div class="contact-us">
-                                <div class="contact-icon">
-                                    <i class="fa fa-map-o" aria-hidden="true"></i>
-                                </div>
-                                <!-- End contact Icon -->
-                                <div class="contact-info">
-                                    <h3>Địa chỉ:</h3>
-                                    <p1>97 Man Thiện, Hiệp Phú</p1>
-                                </div>
-                                <!-- End Contact Info -->
-                            </div>
-                            <!-- End Contact Us -->
-                        </div>
-                        <!-- End Col -->
-                        <div class="col-md-6">
-                            <div class="contact-us contact-us-last">
-                                <div class="contact-icon">
-                                    <i class="fa fa-volume-control-phone" aria-hidden="true"></i>
-                                </div>
-                                <!-- End contact Icon -->
-                                <div class="contact-info">
-                                    <h3>0339518617</h3>
-                                    <p1>Hãy liên hệ với chúng tôi</p1>
-                                </div>
-                                
-                                <!-- End Contact Info -->
-                            </div>
-                            <!-- End Contact Us -->
-                        </div>
-                        <!-- End Col -->
-                    </div>
-                  
-                    <!-- End Contact Row -->
-                    <div class="row">
-                        <div class="col-md-12 col-lg-6">
-                            <div class="footer-widget footer-left-widget">
-                                <div class="section-heading">                                 
-                                    <span class="animate-border border-black"></span>
-                                </div>                                                               
-                            </div>
-                            <!-- End Footer Widget -->
-                        </div>
-                        <!-- End col -->
-                            <div class="footer-widget">
-                                <div class="section-heading">
-                                    <span class="animate-border border-black"></span>
-                                </div>
-                                <div class="p-3 mb-2 bg-success text-white text-center ">VÕ QUANG TƯỜNG - N19DCCN185</div>
-                                 <div class="p-3 mb-2 bg-success text-white text-center">LÊ HOÀNG ANH - N19DCCN005</div>
-                                  <div class="p-3 mb-2 bg-success text-white text-center">THẨM NGỌC ÁNH - N19DCCN012</div>
-                                <!-- End form -->
-                            </div>
-                        <!-- End Col -->
-                    </div>
-                    <!-- End Row -->
-                </div>
-                <!-- End Col -->
+<link href="<c:url value='/resources/styles/font-style.css' />"
+	rel="stylesheet">
+<script src="<c:url value="/resources/styles/bootstrap4/popper.js" />"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.6.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <footer class="footer-16371">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-9 text-center">
+            <div class="footer-site-logo mb-4">
+            <br>
+              <a href="#">Yame Shop</a>
             </div>
-            <!-- End Widget Row -->
-        </div>     
-</footer>
+            <ul class="list-unstyled nav-links mb-5">
+              <li><a href="#">About</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">Press</a></li>
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">FAQ</a></li>
+              <li><a href="#">Legal</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+
+            <div class="social mb-4">
+              <h3>Liên hệ với chúng tôi</h3>
+              <ul class="list-unstyled">
+                <li class="in"><a href="#"><span class="icon-instagram"></span></a></li>
+                <li class="fb"><a href="#"><span class="icon-facebook"></span></a></li>
+                <li class="tw"><a href="#"><span class="icon-twitter"></span></a></li>
+                <li class="pin"><a href="#"><span class="icon-pinterest"></span></a></li>
+                <li class="dr"><a href="#"><span class="icon-dribbble"></span></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+   

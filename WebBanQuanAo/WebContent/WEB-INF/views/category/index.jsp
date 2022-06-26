@@ -2,7 +2,6 @@
 	pageEncoding="UTF-8"%>
 <%@ taglib uri="http://java.sun.com/jstl/core_rt" prefix="c"%>
 <%@ taglib uri="http://java.sun.com/jstl/fmt_rt" prefix="f"%>
-<%-- <%@ taglib prefix="tg" tagdir="/WEB-INF/tags"%> --%>
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt"%>
 <%@ taglib prefix="spring" uri="http://www.springframework.org/tags"%>
 <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form"%>
@@ -13,26 +12,9 @@
 <head>
 <meta charset="UTF-8">
 <title>Yame | sản phẩm theo từng lựa chọn</title>
-<link
-	href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
-	rel="stylesheet" id="bootstrap-css">
-<link
-	href="<c:url value='/resources/plugins/OwlCarousel2-2.2.1/owl.carousel.css' />"
-	rel="stylesheet">
-<link
-	href="<c:url value='/resources/plugins/OwlCarousel2-2.2.1/owl.theme.default.css' />"
-	rel="stylesheet">
-<link
-	href="<c:url value='/resources/plugins/OwlCarousel2-2.2.1/animate.css' />"
-	rel="stylesheet">
-<link
-	href="<c:url value='/resources/plugins/jquery-ui-1.12.1.custom/jquery-ui.css' />"
-	rel="stylesheet">
-<link href="<c:url value='/resources/styles/categories_styles.css' />"
-	rel="stylesheet">
-<link
-	href="<c:url value='/resources/styles/categories_responsive.css' />"
-	rel="stylesheet">
+<link href="<c:url value='/resources/plugins/jquery-ui-1.12.1.custom/jquery-ui.css' />" rel="stylesheet" />
+<link href="<c:url value='/resources/styles/categories_styles.css' />" rel="stylesheet" />
+<link href="<c:url value='/resources/styles/categories_responsive.css' />" rel="stylesheet" />
 </head>
 <body>
 	<div class="super_container">
@@ -242,18 +224,6 @@
 						tabindex="-1" aria-disabled="true">&raquo;</a></li>
 				</ul>
 			</nav>
-	<script
-		src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-	<script src="<c:url value='/resources/styles/bootstrap4/popper.js' />"></script>
-	<script
-		src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
-	<script
-		src="<c:url value='/resources/plugins/Isotope/isotope.pkgd.min.js' />"></script>
-	<script
-		src="<c:url value='/resources/plugins/OwlCarousel2-2.2.1/owl.carousel.js' />"></script>
-	<script src="<c:url value='/resources/plugins/easing/easing.js' />"></script>
-	<script
-		src="<c:url value='/resources/plugins/jquery-ui-1.12.1.custom/jquery-ui.js' />"></script>
 	<script src="<c:url value='/resources/js/categories_custom.js' />"></script>
 	<script src="<c:url value='/resources/js/custom.js' />"></script>
 	<br>

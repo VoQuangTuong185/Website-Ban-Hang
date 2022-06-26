@@ -4,23 +4,9 @@
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt"%>
 <%@ page import="clothes.utils.Constants"%>
 <fmt:setLocale value="vi-VN" scope="session" />
-<link
-	href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
-	rel="stylesheet" id="bootstrap-css">
-<link rel="stylesheet"
-	href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css">
-<link rel="stylesheet"
-	href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css">
-<link
-	href="<c:url value='/resources/plugins/font-awesome-4.7.0/css/font-awesome.min.css' />"
-	rel="stylesheet">
-<link
-	href="<c:url value='/resources/plugins/OwlCarousel2-2.2.1/animate.css' />"
-	rel="stylesheet">
-<link href="<c:url value='/resources/styles/main_styles.css' />"
-	rel="stylesheet">
-<link href="<c:url value='/resources/styles/responsive.css' />"
-	rel="stylesheet">
+<%@include file="/WEB-INF/views/include/header.jsp"%>
+<link href="<c:url value='/resources/styles/main_styles.css' />" rel="stylesheet" />
+<link href="<c:url value='/resources/styles/responsive.css' />" rel="stylesheet" />
 	<title>YAME | quản lý sản phẩm</title>
 <body style="display: inline-block; align-items: center; height: 100%; width: 100%;">
 	<div class="container">
@@ -111,8 +97,7 @@
 							chắc chắn chứ ?
 						</div>
 						<div class="modal-footer">
-							<button type="button" class="btn btn-secondary"
-								data-bs-dismiss="modal">Hủy</button>
+							<button id="btnCancel" type="button" class="btn btn-secondary">Hủy</button>
 							<button id="btnConfirm" type="button" class="btn btn-primary">Xóa</button>
 						</div>
 					</div>
@@ -140,8 +125,9 @@
 				</ul>
 			</nav>
 		</div>
-	</div>
-	<script src="<c:url value="/resources/js/jquery-3.6.0.min.js" />"></script>
+	<%@include file="/WEB-INF/views/include/footer.jsp"%>
+	<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.6.1/js/bootstrap.min.js"></script>
 	<script>
 	var id = -1;	
 	var confirm = function(productId){
@@ -155,14 +141,9 @@
 		console.log("AA: "+id);
 		window.location.href = "admin/product.htm?delete="+id;
 	});
+	$('#btnCancel').on('click', function(event) {
+		$('#confirmModel').modal('hide');
+	});
 </script>
-	<script
-		src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.6.1/js/bootstrap.min.js"></script>
-
-	<script
-		src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
-
-	<script
-		src="http://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.0/js/bootstrap-datepicker.js"></script>
 </body>
 

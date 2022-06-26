@@ -50,7 +50,6 @@
 
 		</form:form>
 		<br><br><br><br>
-		<%@include file="/WEB-INF/views/include/footer.jsp"%>
 	</div>
-	<div class="col-lg-2"></div>
 </div>
+<%@include file="/WEB-INF/views/include/footer.jsp"%>

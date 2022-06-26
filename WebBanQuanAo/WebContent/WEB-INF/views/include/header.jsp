@@ -14,6 +14,18 @@ body {
 	font-family: Arial, Helvetica, sans-serif;
 }
 </style>
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css" />
+<link href="<c:url value='/resources/plugins/OwlCarousel2-2.2.1/animate.css' />" rel="stylesheet" />
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.6.1/js/bootstrap.min.js"></script>
+<script src="<c:url value="/resources/plugins/easing/easing.js" />"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
+<script src="<c:url value="/resources/plugins/Isotope/isotope.pkgd.min.js" />"></script>
+<script src="<c:url value="/resources/plugins/easing/easing.js" />"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
+
 <meta charset='utf-8'>
 <base href="${pageContext.servletContext.contextPath}/">
 
@@ -98,7 +110,6 @@ body {
 								</div>
 							</c:otherwise>
 						</c:choose>
-
 						<div class="hamburger_container">
 							<i class="fa fa-bars" aria-hidden="true"></i>
 						</div>

@@ -43,12 +43,4 @@ public class HomeController {
 		 model.addAttribute("giamGia",giamGia.subList(0, Math.min(7, giamGia.size())));	 
 		 return "index";
 		}
-
-//	@RequestMapping("login")
-//	public String login(HttpSession session) {
-//		Account account = accountDAO.getAccount(1);
-//		session.setAttribute("account", account);
-//		return "redirect:/home.htm";
-//	}
-//
 }

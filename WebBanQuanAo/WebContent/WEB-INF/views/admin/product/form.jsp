@@ -2,24 +2,9 @@
 <%@ taglib uri="http://java.sun.com/jstl/core_rt" prefix="c"%>
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt"%>
 <%@ page import="clothes.utils.Constants"%>
-<link
-	href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
-	rel="stylesheet" id="bootstrap-css">
-<link rel="stylesheet"
-	href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css">
-<link rel="stylesheet"
-	href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css">
-<link
-	href="<c:url value='/resources/plugins/font-awesome-4.7.0/css/font-awesome.min.css' />"
-	rel="stylesheet">
-<link
-	href="<c:url value='/resources/plugins/OwlCarousel2-2.2.1/animate.css' />"
-	rel="stylesheet">
-<link href="<c:url value='/resources/styles/main_styles.css' />"
-	rel="stylesheet">
-<link href="<c:url value='/resources/styles/responsive.css' />"
-	rel="stylesheet">
 <%@include file="/WEB-INF/views/include/header.jsp"%>
+<link href="<c:url value='/resources/styles/main_styles.css' />" rel="stylesheet" />
+<link href="<c:url value='/resources/styles/responsive.css' />" rel="stylesheet" />
 <title>YAME | thêm sản phẩm</title>
 <body
 	style="display: inline-block; align-items: center; height: 100%; width: 100%;">
@@ -32,8 +17,7 @@
 				method="post" enctype="multipart/form-data">
 				<div class="row">
 					<div class="col-md-6">
-						<label for="txtNameControl" class="form-label"><b>Tên
-								sản phẩm</b></label>
+						<label for="txtNameControl" class="form-label"><b>Tên sản phẩm</b></label>
 						<form:input path="productname" type="text" class="form-control"
 							id="txtNameControl" />
 						<form:errors path="productname" />
@@ -109,8 +93,7 @@
 								<button id="btn-${index.count}" type="button"
 									class="btn btn-warning btn-sm"
 									onclick="deleteImage(${index.count})">
-									<i class="bi bi-x-lg"></i>
-									Xoá
+									<i class="bi bi-x-lg"></i>Xoá
 								</button>
 							</div>
 							<img src="resources/images/${Constants.getImageAt(product.images, index.count-1)}"
@@ -118,31 +101,17 @@
 
 							<form:input type="hidden" class="form-control" path="imagePath"
 								id="imagePath${index.count}" />
-
 						</div>
 					</c:forEach>
-
 				</div>
-
 				<hr style="border: 1px solid #f1f1f1">
-				<br>
 				<div class="text-center mv-10">
 					<button type="submit" class="btn btn-primary shadow">${product == null ? "Thêm" : "Sửa" }</button>
 				</div>
 			</form:form>
-			<div class="row">
-				<div class="col"></div>
-				<div class="col"></div>
-				<div class="col"></div>
-			</div>
 		</div>
 	</div>
-	<div class="row ml-10">
-		<div class="col-lg-7"></div>
-
-	</div>
-	<script type="text/javascript"
-		src="//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+	<%@include file="/WEB-INF/views/include/footer.jsp"%>
 	<script>
 	var images = "${product.images}";
 	console.log(images);
@@ -179,6 +148,4 @@
 		}
 	};
 	</script>
-	<script
-		src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.6.1/js/bootstrap.min.js"></script>
 </body>

@@ -16,32 +16,8 @@
 <meta name="description" content="Colo Shop Template">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<link
-	href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
-	rel="stylesheet" id="bootstrap-css">
-<link
-	href="<c:url value='/resources/plugins/font-awesome-4.7.0/css/font-awesome.min.css' />"
-	rel="stylesheet">
-<link
-	href="<c:url value='/resources/plugins/OwlCarousel2-2.2.1/owl.carousel.css' />"
-	rel="stylesheet">
-<link
-	href="<c:url value='/resources/plugins/OwlCarousel2-2.2.1/owl.theme.default.css' />"
-	rel="stylesheet">
-<link
-	href="<c:url value='/resources/plugins/OwlCarousel2-2.2.1/animate.css' />"
-	rel="stylesheet">
-<link
-	href="<c:url value='/resources/plugins/jquery-ui-1.12.1.custom/jquery-ui.css' />"
-	rel="stylesheet">
-<link href="<c:url value='/resources/styles/single_styles.css' />"
-	rel="stylesheet">
-<link
-	href="<c:url value='/resources/plugins/themify-icons/themify-icons.css' />"
-	rel="stylesheet">
-<link href="<c:url value='/resources/styles/single_responsive.css' />"
-	rel="stylesheet">
-
+<link href="<c:url value='/resources/styles/single_styles.css' />" rel="stylesheet">
+<link href="<c:url value='/resources/styles/responsive.css' />" rel="stylesheet" />
 </head>
 
 <body>

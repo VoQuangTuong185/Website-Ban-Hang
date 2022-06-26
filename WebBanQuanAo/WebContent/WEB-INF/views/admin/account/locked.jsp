@@ -2,37 +2,21 @@
 <%@ taglib uri="http://java.sun.com/jstl/core_rt" prefix="c"%>
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt"%>
 <%@ page import="clothes.utils.Constants"%>
-<link
-	href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
-	rel="stylesheet" id="bootstrap-css">
-<link rel="stylesheet"
-	href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css">
-<link rel="stylesheet"
-	href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css">
-<link
-	href="<c:url value='/resources/plugins/font-awesome-4.7.0/css/font-awesome.min.css' />"
-	rel="stylesheet">
-<link
-	href="<c:url value='/resources/plugins/OwlCarousel2-2.2.1/animate.css' />"
-	rel="stylesheet">
-<link href="<c:url value='/resources/styles/main_styles.css' />"
-	rel="stylesheet">
-<link href="<c:url value='/resources/styles/responsive.css' />"
-	rel="stylesheet">
+<%@include file="/WEB-INF/views/include/header.jsp"%>
+<link href="<c:url value='/resources/styles/main_styles.css' />" rel="stylesheet" />
+/<link href="<c:url value='/resources/styles/responsive.css' />" rel="stylesheet" />
 	<title>YAME | quản lý tài khoản - khoá</title>
 <body style="display: inline-block; align-items: center; height: 100%; width: 100%;">
 	<div class="container">
 		<div class="col-3"></div>
 		<div class=".col-sm-6">
-			<%@include file="/WEB-INF/views/include/header.jsp"%>
 			<br><br><br><br><br><br>
 			<%@include file="/WEB-INF/views/include/sidebar_admin.jsp"%>
 		<div>
-			<span class="float-start msg-success">${message}</span> <span
+			<h5 style="color: red; font-style: italic; padding-top: 15px;">${message}</h5> <span
 				class="float-start msg-fail">${msgError}</span> <span
 				class="float-end"><a href="admin/account.htm" type="button"
-				class="btn btn-primary rounded-pill mb-10 shadow">Xem danh sách
-					tất cả tài khoản</a></span>
+				class="btn btn-primary rounded-pill mb-10 shadow">Xem danh sách tất cả tài khoản</a></span>
 
 		</div>
 
@@ -63,19 +47,12 @@
 								</c:otherwise>
 							</c:choose></td>
 						<td><c:choose>
-								<c:when test="${a.status==0}">
+								<c:when test="${a.status==1}">
 									<button type="button"
-										class="btn btn-danger btn-sm rounded-pill"
-										onclick="confirm(${a.accountId})">
-										<i class="bi bi-lock-fill"></i>
+										class="btn btn-success btn-sm"
+										onclick="confirm(${a.accountId})"> Mở
 									</button>
 								</c:when>
-								<c:otherwise>
-									<a href="admin/account/unlock.htm?id=${a.accountId}"
-										class="btn btn-success btn-sm rounded-pill"> <i
-										class="bi bi-unlock-fill"></i>
-									</a>
-								</c:otherwise>
 							</c:choose></td>
 					</tr>
 				</c:forEach>
@@ -87,24 +64,18 @@
 			<div class="modal-dialog">
 				<div class="modal-content">
 					<div class="modal-header">
-						<h5 class="modal-title" id="exampleModalLabel">Xác nhận khóa
-							tài khoản</h5>
+						<h5 class="modal-title" id="exampleModalLabel">Xác nhận mở tài khoản</h5>
 						<button type="button" class="btn-close" data-bs-dismiss="modal"
 							aria-label="Close"></button>
 					</div>
-					<div id="confirmBody" class="modal-body">Người dùng khi bị
-						khóa sẽ không thể sử dụng website của bạn. Bạn chắc chắn chứ?</div>
+					<div id="confirmBody" class="modal-body">Người dùng khi sau khi mở sẽ có thể sử dụng website của bạn. Bạn chắc chắn chứ??</div>
 					<div class="modal-footer">
 						<button id="btnCancel" type="button" class="btn btn-secondary">Hủy</button>
-						<button id="btnConfirm" type="button" class="btn btn-danger">Khóa</button>
+						<button id="btnConfirm" type="button" class="btn btn-danger">Mở</button>
 					</div>
 				</div>
 			</div>
 		</div>
-
-
-
-
 		<br />
 		<nav aria-label="Page navigation">
 			<ul class="pagination justify-content-end">
@@ -129,30 +100,26 @@
 		</nav>
 	</div>
 	</div>
-	<script src="<c:url value="/resources/js/jquery-3.6.0.min.js" />"></script>
+	
+	<%@include file="/WEB-INF/views/include/footer.jsp"%>
+	<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.6.1/js/bootstrap.min.js"></script>
 	<script>
 var id = -1;
 
-var confirm = function(accountId){
-	id = accountId;
-	console.log(accountId);
-	$('#confirmModel').modal('show');
-	var str = "Người dùng khi bị khóa sẽ không thể sử dụng website của bạn. Bạn chắc chắn chứ?";
-	$('#confirmBody').html(str);	
-}
+var confirm = function (accountId) {
+    id = accountId;
+    console.log(accountId);
+    $("#confirmModel").modal("show");
+    var str = "Người dùng khi sau khi mở sẽ có thể sử dụng website của bạn. Bạn chắc chắn chứ?";
+    $("#confirmBody").html(str);
+};
 $('#btnConfirm').on('click', function(event) {
-	window.location.href = "lock.htm?id="+id;
+	window.location.href = "admin/account/unlock.htm?id="+id;
 });
-$('#btnCancel').on('click', function(event) {
-	$('#confirmModel').modal('hide');
+$("#btnCancel").on("click", function (event) {
+    $("#confirmModel").modal("hide");
 });
+
 </script>
 </body>
-	<script
-		src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.6.1/js/bootstrap.min.js"></script>
-	<script
-		src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
-	<link rel="stylesheet prefetch"
-		href="http://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.0/css/datepicker.css">
-	<script
-		src="http://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.0/js/bootstrap-datepicker.js"></script>

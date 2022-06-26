@@ -77,7 +77,7 @@ public class AccountAdminController {
 			reAttributes.addFlashAttribute("msgError", "Mở khóa tài khoản thất bại!");
 		}
 
-		return "redirect:/admin/account.htm?page=1";
+		return "redirect:/admin/account/locked.htm?page=1";
 	}
 	@RequestMapping(value = "unlock2", params = { "id" })
 	public String unlock2(ModelMap model, RedirectAttributes reAttributes, @RequestParam("id") int accountId) {
